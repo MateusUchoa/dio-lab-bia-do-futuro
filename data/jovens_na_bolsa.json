@@ -1,0 +1,54 @@
+{
+  "documento_titulo": "JOVENS NA BOLSA: PRIMEIROS PASSOS PARA APRENDER A INVESTIR",
+  "autora": "Caroline Francisco de Sousa",
+  "publico_alvo": "Jovens investidores iniciantes",
+  "resumo": "Um guia de caráter educativo com os 6 passos iniciais essenciais para começar a investir do jeito certo e sair da poupança.[cite: 3]",
+  "base_de_conhecimento": [
+    {
+      "passo": "1",
+      "topico": "Invista sem dívidas",
+      "conceito": "A rentabilidade de um investimento na maioria das vezes é menor que a taxa de juros cobrada em dívidas como parcelamento de cartão ou empréstimo. Por isso, não compensa investir antes de quitar as dívidas.[cite: 3]"
+    },
+    {
+      "passo": "2",
+      "topico": "Abra sua conta digital",
+      "conceito": "Bancos digitais não possuem agência física e oferecem benefícios gratuitos, como isenção de taxas de transferências interbancárias (TED). Isso é fundamental para não gastar parte do dinheiro do investimento em taxas de transferência para a corretora.[cite: 3]",
+      "exemplos": "Nubank e Banco Inter.[cite: 3]"
+    },
+    {
+      "passo": "3",
+      "topico": "Abra conta em uma corretora de valores",
+      "conceito": "A corretora faz a intermediação entre os investidores e a bolsa de valores. Ao contrário dos bancos, as corretoras oferecem uma prateleira com produtos financeiros de diversas instituições, garantindo opções mais rentáveis.[cite: 3]",
+      "exemplos": "XP Investimentos, Rico e Easynvest.[cite: 3]"
+    },
+    {
+      "passo": "4",
+      "topico": "Reserva de Emergência",
+      "conceito": "É necessário ter uma quantia equivalente de 3 a 6 meses de seus custos mensais para imprevistos. O cálculo consiste em analisar as contas e multiplicar o valor de gastos mensais por 6.[cite: 3]"
+    },
+    {
+      "passo": "5",
+      "topico": "Onde aplicar a reserva de emergência",
+      "conceito": "A reserva de emergência não deve ir para a renda variável, mas sim para opções seguras e com liquidez diária que rendam mais que a poupança.[cite: 3]",
+      "opcoes_de_investimento": [
+        {
+          "nome": "Tesouro Selic",
+          "caracteristica": "Investimento mais seguro do Brasil, possui rendimento atrelado à taxa Selic e rende mais que a Poupança. Possui imposto de renda regressivo apenas sobre o lucro e liquidez (resgate) de 1 a 2 dias úteis.[cite: 3]"
+        },
+        {
+          "nome": "Fundo DI",
+          "caracteristica": "Investe 95% da carteira em ativos relacionados à variação do CDI. É seguro, tem resgate no mesmo dia (D+0) e rendimento próximo a 100% do CDI.[cite: 3]"
+        },
+        {
+          "nome": "CDB com Liquidez Diária",
+          "caracteristica": "Emissão bancária protegida pelo Fundo Garantidor de Créditos (FGC) para valores até R$ 250.000. Deve-se procurar aqueles que paguem no mínimo 100% do CDI.[cite: 3]"
+        }
+      ]
+    },
+    {
+      "passo": "6",
+      "topico": "Não parar nunca mais",
+      "conceito": "Após concluir os passos fundamentais para a criação da reserva, o investidor está pronto para começar a estudar aplicações de maiores riscos com foco em obter mais rentabilidade.[cite: 3]"
+    }
+  ]
+}

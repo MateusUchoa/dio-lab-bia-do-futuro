@@ -1,0 +1,1677 @@
+{
+  "metadata": {
+    "title": "Glossário B3 (Brasil, Bolsa, Balcão)",
+    "version": "21/11/2022",
+    "description": "Base de conhecimento estruturada contendo termos, definições, categorias e siglas da B3 para uso em agentes de Inteligência Artificial, RAG e sistemas de PLN.",
+    "applicable_normatives": [
+      "Regulamento de Acesso da B3",
+      "Manual de Acesso da B3",
+      "Regulamento da Câmara B3",
+      "Manual de Procedimentos Operacionais da Câmara B3",
+      "Manual de Administração de Risco da Câmara B3",
+      "Regulamento da Central Depositária de Renda Variável B3",
+      "Manual de Procedimentos Operacionais da Central Depositária de Renda Variável B3",
+      "Demais normativos da B3, quando expressamente neles previstos"
+    ],
+    "total_terms": 152,
+    "total_acronyms": 14
+  },
+  "terms": [
+    {
+      "id": 1,
+      "term": "aceitação",
+      "category": "Operacional / Liquidação",
+      "definition": "Estágio inicial do processo de liquidação, por meio do qual a B3 torna-se contraparte central para fins de liquidação de operações pelo saldo líquido multilateral.",
+      "synonyms_and_related": [
+        "contraparte central",
+        "liquidação",
+        "saldo líquido multilateral"
+      ]
+    },
+    {
+      "id": 2,
+      "term": "administrador de clubes de investimento",
+      "category": "Participantes Cadastrados",
+      "definition": "Participante cadastrado responsável pelo registro e manutenção de informações dos clubes de investimento junto à B3, conforme regulamentação vigente.",
+      "synonyms_and_related": [
+        "clubes de investimento",
+        "participante cadastrado"
+      ]
+    },
+    {
+      "id": 3,
+      "term": "agente de custódia",
+      "category": "Participantes Autorizados / Custódia",
+      "definition": "Participante detentor de autorização de acesso para custódia na central depositária da B3 e no SELIC, conforme o ativo, de acordo com as regras e procedimentos de acesso específicos da B3.",
+      "synonyms_and_related": [
+        "custódia",
+        "SELIC",
+        "central depositária"
+      ]
+    },
+    {
+      "id": 4,
+      "term": "alocação",
+      "category": "Operacional / Negociação",
+      "definition": "Procedimento de indicação, pelos participantes de negociação pleno e pelos participantes de liquidação, do comitente, da conta ou do ativo, levando-se em consideração as características da operação.",
+      "synonyms_and_related": [
+        "comitente",
+        "participante de negociação pleno",
+        "participante de liquidação"
+      ]
+    },
+    {
+      "id": 5,
+      "term": "ambiente de contratação de empréstimo",
+      "category": "Ambientes de Mercado",
+      "definition": "Ambiente administrado pela B3 ou para o qual ela venha a prestar serviços, por meio do qual são contratadas operações de empréstimo e operações compromissadas.",
+      "synonyms_and_related": [
+        "empréstimo de ativos",
+        "operação compromissada"
+      ]
+    },
+    {
+      "id": 6,
+      "term": "ambiente de negociação",
+      "category": "Ambientes de Mercado",
+      "definition": "Ambiente administrado pela B3 ou para o qual ela venha a prestar serviços, eletrônicos ou não, onde as operações são realizadas, exceto operações de empréstimo e operações compromissadas.",
+      "synonyms_and_related": [
+        "sistema de negociação",
+        "mercado de bolsa"
+      ]
+    },
+    {
+      "id": 7,
+      "term": "ambiente de registro",
+      "category": "Ambientes de Mercado",
+      "definition": "Ambiente administrado pela B3 ou para o qual ela venha a prestar serviços, eletrônico ou não, onde são registrados os ativos, os derivativos e as operações não realizadas em ambiente de negociação ou não contratadas em ambiente de contratação de empréstimo.",
+      "synonyms_and_related": [
+        "sistema de registro",
+        "balcão"
+      ]
+    },
+    {
+      "id": 8,
+      "term": "arbitramento sistemático de lingotes de ouro",
+      "category": "Commodities / Ouro",
+      "definition": "Procedimento para atestar o teor de pureza dos lingotes de ouro negociados nos mercados administrados pela B3.",
+      "synonyms_and_related": [
+        "lingote de ouro",
+        "fundidor de ouro",
+        "depositário de ouro"
+      ]
+    },
+    {
+      "id": 9,
+      "term": "ativo",
+      "category": "Instrumentos Financeiros",
+      "definition": "Títulos, valores mobiliários, direitos e outros instrumentos e ativos financeiros, inclusive ouro ativo financeiro, de emissor público ou privado, exceto derivativos.",
+      "synonyms_and_related": [
+        "valores mobiliários",
+        "títulos públicos",
+        "ouro ativo financeiro"
+      ]
+    },
+    {
+      "id": 10,
+      "term": "aviso da intenção de entrega",
+      "category": "Derivativos / Commodities",
+      "definition": "Meio pelo qual o comitente vendedor de um derivativo que tenha sua liquidação por meio de entrega física manifesta, via participante de negociação pleno ou participante de negociação, sua intenção de proceder à entrega da mercadoria.",
+      "synonyms_and_related": [
+        "entrega física",
+        "aviso de entrega",
+        "mercadoria"
+      ]
+    },
+    {
+      "id": 11,
+      "term": "aviso de entrega",
+      "category": "Derivativos / Commodities",
+      "definition": "Meio pelo qual o comitente vendedor, via participante de negociação pleno, manifesta sua decisão de proceder à entrega da mercadoria; consiste do envio da documentação requerida e do registro, no sistema de classificação e liquidação física da câmara, da decisão de entrega.",
+      "synonyms_and_related": [
+        "aviso da intenção de entrega",
+        "liquidação física"
+      ]
+    },
+    {
+      "id": 12,
+      "term": "autoridade fiscalizadora",
+      "category": "Regulatório / Conformidade",
+      "definition": "Qualquer autoridade, de âmbito administrativo ou judicial, competente para julgar, fiscalizar e aplicar a legislação pertinente, incluindo, mas não se limitando à ANPD.",
+      "synonyms_and_related": [
+        "ANPD",
+        "BCB",
+        "CVM"
+      ]
+    },
+    {
+      "id": 13,
+      "term": "autorização de acesso",
+      "category": "Acesso e Governança",
+      "definition": "Autorização concedida mediante outorga da B3, por processo de aprovação por seu Presidente, para o participante com a intenção de atuar nos ambientes, sistemas e mercados administrados pela B3, de acordo com as regras de acesso estabelecidas em regulamento específico da B3.",
+      "synonyms_and_related": [
+        "participante autorizado",
+        "habilitação"
+      ]
+    },
+    {
+      "id": 14,
+      "term": "banco correspondente",
+      "category": "Câmbio / Liquidação",
+      "definition": "Instituição financeira que (i) mantém conta no exterior para a liquidação de operações de câmbio; e (ii) realiza operações de compra e venda de moeda estrangeira.",
+      "synonyms_and_related": [
+        "operação de câmbio",
+        "moeda estrangeira"
+      ]
+    },
+    {
+      "id": 15,
+      "term": "banco correspondente da B3",
+      "category": "Câmbio / Liquidação",
+      "definition": "Instituição financeira que mantém vínculo contratual com a B3 para (i) manter conta no exterior em nome desta para a liquidação das operações de câmbio; (ii) realizar operações de compra e venda de moeda estrangeira; e (iii) prestar outros serviços de interesse da B3.",
+      "synonyms_and_related": [
+        "banco correspondente",
+        "mercado de câmbio"
+      ]
+    },
+    {
+      "id": 16,
+      "term": "banco emissor de garantias",
+      "category": "Garantias / Risco",
+      "definition": "Banco que emite, em favor de terceiros, ativos passíveis de aceitação pela câmara em garantia e/ou que avaliza cédulas de produto rural passíveis de aceitação pela câmara em garantia.",
+      "synonyms_and_related": [
+        "garantias",
+        "CPR",
+        "câmara"
+      ]
+    },
+    {
+      "id": 17,
+      "term": "boletim de voto a distância",
+      "category": "Governança / Custódia",
+      "definition": "Mecanismo pelo qual o comitente manifesta seu voto de forma eletrônica e não presencial em assembleias ordinárias ou extraordinárias de emissores registradas na central depositária da B3.",
+      "synonyms_and_related": [
+        "comitente",
+        "emissor",
+        "central depositária"
+      ]
+    },
+    {
+      "id": 18,
+      "term": "cadastro",
+      "category": "Acesso e Governança",
+      "definition": "Procedimento de admissão e registro de participantes cadastrados na B3.",
+      "synonyms_and_related": [
+        "participante cadastrado",
+        "admissão"
+      ]
+    },
+    {
+      "id": 19,
+      "term": "cadeia de responsabilidades",
+      "category": "Acesso e Governança",
+      "definition": "Estrutura que define as relações de corresponsabilidade entre a B3 e os participantes com relação a direitos e obrigações.",
+      "synonyms_and_related": [
+        "participante",
+        "direitos e obrigações"
+      ]
+    },
+    {
+      "id": 20,
+      "term": "câmara",
+      "category": "Infraestrutura / Clearing",
+      "definition": "A B3 na prestação, em caráter principal, dos serviços relacionados à aceitação, compensação, liquidação e administração de risco de operações, bem como outras atividades relacionadas.",
+      "synonyms_and_related": [
+        "clearing house",
+        "contraparte central",
+        "compensação",
+        "liquidação"
+      ]
+    },
+    {
+      "id": 21,
+      "term": "captura",
+      "category": "Operacional / Negociação",
+      "definition": "Procedimento por meio do qual os sistemas da câmara recebem as operações realizadas por intermédio dos ambientes de negociação, contratadas por meio dos sistemas de contratação de empréstimo ou registradas em ambientes de registro.",
+      "synonyms_and_related": [
+        "câmara",
+        "ambiente de negociação",
+        "ambiente de registro"
+      ]
+    },
+    {
+      "id": 22,
+      "term": "carteira",
+      "category": "Contas e Custódia",
+      "definition": "Subconta de contas utilizadas na câmara e na central depositária da B3, com característica e finalidade específicas.",
+      "synonyms_and_related": [
+        "conta de depósito",
+        "subconta"
+      ]
+    },
+    {
+      "id": 23,
+      "term": "catálogo de mensagens do SPB",
+      "category": "Sistemas de Pagamento / Comunicação",
+      "definition": "Documento que estabelece e divulga as mensagens trafegadas na RSFN e utilizadas para a comunicação entre o BCB, a câmara, as instituições financeiras e outras entidades previamente autorizadas.",
+      "synonyms_and_related": [
+        "SPB",
+        "RSFN",
+        "mensagem LDL",
+        "BCB"
+      ]
+    },
+    {
+      "id": 24,
+      "term": "central depositária",
+      "category": "Infraestrutura / Custódia",
+      "definition": "Instituição ou departamento, nacional ou estrangeiro, que presta, em caráter principal, o serviço de depósito centralizado de ativos, nos termos da legislação vigente.",
+      "synonyms_and_related": [
+        "depósito centralizado",
+        "custódia"
+      ]
+    },
+    {
+      "id": 25,
+      "term": "central depositária da B3",
+      "category": "Infraestrutura / Custódia",
+      "definition": "A central depositária de renda variável B3.",
+      "synonyms_and_related": [
+        "central depositária",
+        "renda variável"
+      ]
+    },
+    {
+      "id": 26,
+      "term": "ciclo de liquidação",
+      "category": "Operacional / Liquidação",
+      "definition": "Prazos e horários, estabelecidos pela câmara, para cumprimento de obrigações decorrentes da liquidação de operações.",
+      "synonyms_and_related": [
+        "janela de liquidação",
+        "liquidação"
+      ]
+    },
+    {
+      "id": 27,
+      "term": "cobertura",
+      "category": "Garantias / Risco",
+      "definition": "Ativo-objeto de operação de venda à vista, de derivativo ou de empréstimo, mantido pelo comitente em carteira específica de conta de depósito da central depositária da B3 ou em finalidade específica da conta de depósito de título público federal, destinado à entrega na liquidação de tais operações, sendo considerado como garantia.",
+      "synonyms_and_related": [
+        "garantia",
+        "custódia",
+        "conta de depósito"
+      ]
+    },
+    {
+      "id": 28,
+      "term": "comitente",
+      "category": "Participantes Cadastrados / Clientes",
+      "definition": "Pessoa física, jurídica, fundo ou entidade de investimento coletivo ou qualquer entidade semelhante, no Brasil ou no exterior, que participa como titular das operações realizadas por sua conta e ordem por intermédio de um participante e liquidadas por intermédio também de um participante e que utiliza os serviços de um agente de custódia para a custódia de seus ativos na central depositária da B3 ou no SELIC.",
+      "synonyms_and_related": [
+        "investidor",
+        "agente de custódia",
+        "titular de operação"
+      ]
+    },
+    {
+      "id": 29,
+      "term": "compensação",
+      "category": "Operacional / Clearing",
+      "definition": "Procedimento de apuração da posição líquida (créditos menos débitos) de direitos e obrigações das contrapartes para a liquidação na câmara.",
+      "synonyms_and_related": [
+        "posição líquida",
+        "câmara",
+        "saldo líquido"
+      ]
+    },
+    {
+      "id": 30,
+      "term": "conglomerado financeiro",
+      "category": "Estrutura Corporativa",
+      "definition": "Conjunto de entidades financeiras vinculadas, direta ou indiretamente, por participação acionária ou por controle operacional efetivo, caracterizadas pela administração ou gerência comum ou pela atuação no mercado sob a mesma marca ou nome comercial, ou ainda que mantenham vínculos contratuais e/ou administrativos.",
+      "synonyms_and_related": [
+        "grupo financeiro",
+        "instituição financeira"
+      ]
+    },
+    {
+      "id": 31,
+      "term": "conta",
+      "category": "Contas e Custódia",
+      "definition": "Forma de identificação dos ativos, das operações e das posições dos participantes junto à câmara e centrais depositárias de acordo com suas características e situações.",
+      "synonyms_and_related": [
+        "conta de depósito",
+        "conta de posição"
+      ]
+    },
+    {
+      "id": 32,
+      "term": "conta CEL",
+      "category": "Contas e Custódia / Liquidação",
+      "definition": "Conta especial de liquidação com característica de conta corrente mantida e administrada pelo Banco B3 S.A., de titularidade de um comitente, por meio da qual ocorre a liquidação financeira de suas obrigações diretamente com a câmara, de forma segregada dos fluxos financeiros do participante de negociação pleno e do membro de compensação responsáveis, sendo que esta conta é utilizada exclusivamente para a movimentação de recursos inerentes à referida liquidação e ao depósito de garantias em recursos financeiros em moeda nacional.",
+      "synonyms_and_related": [
+        "Banco B3",
+        "liquidação financeira",
+        "segregação de recursos"
+      ]
+    },
+    {
+      "id": 33,
+      "term": "conta de depósito",
+      "category": "Contas e Custódia",
+      "definition": "Conta mantida em central depositária, individualizada ou não por comitente, para fins de guarda e controle da movimentação de ativos submetidos às atividades de depósito centralizado, bem como de guarda e movimentação de recursos financeiros e ativos depositados para assegurar a certeza da liquidação de operações (garantia).",
+      "synonyms_and_related": [
+        "custódia",
+        "central depositária",
+        "garantia"
+      ]
+    },
+    {
+      "id": 34,
+      "term": "conta de depósito Selic",
+      "category": "Contas e Custódia / Títulos Públicos",
+      "definition": "Conta de depósito no SELIC, do tipo 'custódia especial da câmara-depósito', individualizada por comitente, utilizada nas atividades relacionadas com o processo de liquidação de operações com títulos públicos pela câmara.",
+      "synonyms_and_related": [
+        "SELIC",
+        "títulos públicos",
+        "câmara"
+      ]
+    },
+    {
+      "id": 35,
+      "term": "conta de depósito de título público federal",
+      "category": "Contas e Custódia / Títulos Públicos",
+      "definition": "Conta, no sistema da câmara, que replica a conta de depósito Selic para operacionalizar a movimentação de títulos públicos objeto de operações liquidadas pela câmara.",
+      "synonyms_and_related": [
+        "conta de depósito Selic",
+        "títulos públicos federais"
+      ]
+    },
+    {
+      "id": 36,
+      "term": "conta de Liquidação",
+      "category": "Contas e Custódia / Liquidação",
+      "definition": "Conta mantida no BCB por instituição não bancária, utilizada pelo seu titular para efetuar ou receber os pagamentos referentes: (i) a sua autorização de acesso para liquidação na câmara, enquanto membro de compensação; (ii) ao processo de liquidação bruta, quando for o caso, enquanto participante de negociação pleno; e (iii) às suas atividades de custódia, enquanto agente de custódia.",
+      "synonyms_and_related": [
+        "BCB",
+        "membro de compensação",
+        "liquidante"
+      ]
+    },
+    {
+      "id": 37,
+      "term": "conta de liquidação da câmara",
+      "category": "Contas e Custódia / Clearing",
+      "definition": "Conta de titularidade da câmara, mantida no BCB, utilizada para efetuar a movimentação de recursos financeiros referente aos processos de liquidação da câmara e da central depositária da B3.",
+      "synonyms_and_related": [
+        "BCB",
+        "câmara",
+        "liquidação financeira"
+      ]
+    },
+    {
+      "id": 38,
+      "term": "conta de liquidação de ativos",
+      "category": "Contas e Custódia / Clearing",
+      "definition": "Conta de depósito específica, mantida pela câmara ou por sistema externo na central depositária da B3, no BCB (Selic), ou em outras centrais depositárias para efetuar a movimentação de ativos envolvidos no processo de liquidação.",
+      "synonyms_and_related": [
+        "liquidação de ativos",
+        "central depositária",
+        "SELIC"
+      ]
+    },
+    {
+      "id": 39,
+      "term": "conta de patrimônio",
+      "category": "Contas e Custódia / B3",
+      "definition": "Conta mantida pela B3 no BCB (Selic), destinada à recepção, à guarda e à movimentação de títulos públicos federais de sua propriedade.",
+      "synonyms_and_related": [
+        "BCB",
+        "SELIC",
+        "patrimônio B3"
+      ]
+    },
+    {
+      "id": 40,
+      "term": "conta de posição",
+      "category": "Contas e Custódia / Risco",
+      "definition": "Conta mantida na câmara para fins de registro e controle de posições e garantias.",
+      "synonyms_and_related": [
+        "controle de posições",
+        "garantias"
+      ]
+    },
+    {
+      "id": 41,
+      "term": "conta restrição de ativos",
+      "category": "Contas e Custódia / Risco",
+      "definition": "Conta de depósito mantida em nome da câmara ou de sistema externo para a manutenção dos ativos a serem utilizados nos processos de liquidação e administração de riscos.",
+      "synonyms_and_related": [
+        "administração de risco",
+        "liquidação"
+      ]
+    },
+    {
+      "id": 42,
+      "term": "conta Reservas Bancárias",
+      "category": "Contas e Custódia / Liquidação",
+      "definition": "Conta mantida no BCB, por instituição bancária, utilizada pelo seu respectivo titular para efetuar ou receber os pagamentos referentes: (i) a sua autorização de acesso para liquidação na câmara, enquanto membro de compensação; (ii) a autorização de acesso para liquidação na câmara de terceiros não detentores de contas Reserva Bancária e contas de Liquidação; e (iii) às suas atividades de custódia, enquanto agente de custódia.",
+      "synonyms_and_related": [
+        "BCB",
+        "membro de compensação",
+        "instituição bancária"
+      ]
+    },
+    {
+      "id": 43,
+      "term": "conta Selic",
+      "category": "Contas e Custódia / Títulos Públicos",
+      "definition": "Conta de depósito mantida pelo participante no BCB (Selic) para recepção, guarda e transferência de títulos públicos federais, inclusive as relacionadas a movimentações do processo de liquidação, ao depósito de garantias e à retirada de garantias e aos serviços prestados pela câmara.",
+      "synonyms_and_related": [
+        "SELIC",
+        "títulos públicos federais"
+      ]
+    },
+    {
+      "id": 44,
+      "term": "contraparte central",
+      "category": "Clearing / Risco",
+      "definition": "Posição assumida pela B3, mediante novação, segundo a qual se torna compradora de todo vendedor e vendedora de todo comprador, tomadora de todo doador e doadora de todo tomador e garantidora das operações aceitas, exclusivamente perante os participantes, na liquidação das respectivas obrigações.",
+      "synonyms_and_related": [
+        "novação",
+        "garantidora",
+        "câmara"
+      ]
+    },
+    {
+      "id": 45,
+      "term": "contratação de câmbio",
+      "category": "Câmbio",
+      "definition": "Formalização de uma operação de câmbio, após sua aceitação pela câmara.",
+      "synonyms_and_related": [
+        "operação de câmbio",
+        "aceitação"
+      ]
+    },
+    {
+      "id": 46,
+      "term": "controlador(a) de dados pessoais",
+      "category": "Conformidade / LGPD",
+      "definition": "A pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais, nos termos da LGPD.",
+      "synonyms_and_related": [
+        "LGPD",
+        "tratamento de dados pessoais"
+      ]
+    },
+    {
+      "id": 47,
+      "term": "controle analítico de saldos",
+      "category": "Custódia / Contabilidade",
+      "definition": "Registro e manutenção do saldo de ativos, efetuados de forma analítica, com a guarda da informação da data e do custo de aquisição do ativo.",
+      "synonyms_and_related": [
+        "custo de aquisição",
+        "controle sintético de saldos"
+      ]
+    },
+    {
+      "id": 48,
+      "term": "controle sintético de saldos",
+      "category": "Custódia / Contabilidade",
+      "definition": "Registro e manutenção do saldo de ativos, que consolidam a quantidade do ativo, independentemente da data e do custo de aquisição do ativo.",
+      "synonyms_and_related": [
+        "controle analítico de saldos",
+        "saldo consolidado"
+      ]
+    },
+    {
+      "id": 49,
+      "term": "controle de posições",
+      "category": "Operacional / Clearing",
+      "definition": "Procedimento por meio do qual a câmara realiza a identificação, o registro e a atualização dos direitos e obrigações dos participantes.",
+      "synonyms_and_related": [
+        "posição",
+        "câmara"
+      ]
+    },
+    {
+      "id": 50,
+      "term": "custodiante global",
+      "category": "Custódia / Internacional",
+      "definition": "Instituição habilitada, no exterior, a administrar contas de custódia, própria ou de seus comitentes.",
+      "synonyms_and_related": [
+        "custódia internacional",
+        "comitente"
+      ]
+    },
+    {
+      "id": 51,
+      "term": "custos",
+      "category": "Financeiro / Tarifas",
+      "definition": "Emolumentos e taxas definidos pela B3 e a ela devidos em decorrência de suas atividades.",
+      "synonyms_and_related": [
+        "emolumentos",
+        "taxas",
+        "encargos"
+      ]
+    },
+    {
+      "id": 52,
+      "term": "dado pessoal",
+      "category": "Conformidade / LGPD",
+      "definition": "A informação relacionada a pessoa natural identificada ou identificável, incluindo o dado pessoal sensível, nos termos da LGPD.",
+      "synonyms_and_related": [
+        "LGPD",
+        "controlador de dados pessoais"
+      ]
+    },
+    {
+      "id": 53,
+      "term": "depositário de ouro",
+      "category": "Participantes Cadastrados / Commodities",
+      "definition": "Entidade cadastrada pela B3, responsável pelo recebimento, guarda e conservação dos lingotes de ouro custodiados na B3.",
+      "synonyms_and_related": [
+        "ouro ativo financeiro",
+        "fundidor de ouro"
+      ]
+    },
+    {
+      "id": 54,
+      "term": "depositário do agronegócio",
+      "category": "Participantes Cadastrados / Commodities",
+      "definition": "Entidade cadastrada pela B3 para prestar guarda e manutenção de mercadorias, bem como para atuação no processo de entrega física prevista nos contratos futuros do agronegócio.",
+      "synonyms_and_related": [
+        "agronegócio",
+        "entrega física",
+        "mercadoria"
+      ]
+    },
+    {
+      "id": 55,
+      "term": "depósito de ativos",
+      "category": "Custódia / Operacional",
+      "definition": "Procedimento por meio do qual se formaliza a admissão e a entrada de ativos no serviço de depósito centralizado da central depositária, realizando-se seu registro na correspondente conta de depósito.",
+      "synonyms_and_related": [
+        "central depositária",
+        "conta de depósito"
+      ]
+    },
+    {
+      "id": 56,
+      "term": "depósito de garantias",
+      "category": "Garantias / Risco",
+      "definition": "Procedimento de entrega de garantias, por participante, à câmara.",
+      "synonyms_and_related": [
+        "garantias",
+        "câmara",
+        "margem"
+      ]
+    },
+    {
+      "id": 57,
+      "term": "derivativo",
+      "category": "Instrumentos Financeiros",
+      "definition": "Instrumento financeiro que possui como referência ou tem como objeto subjacente ativos financeiros, índices, indicadores, taxas, mercadorias, moedas, energias, transportes, commodities ou qualquer outra variável.",
+      "synonyms_and_related": [
+        "mercado de derivativos",
+        "futuros",
+        "opções",
+        "swaps"
+      ]
+    },
+    {
+      "id": 58,
+      "term": "devedor operacional",
+      "category": "Risco / Inadimplência",
+      "definition": "Participante que, por motivos de ordem operacional e quaisquer outros não vinculados à sua solvência, deixar de cumprir as suas obrigações, de forma integral ou parcial, no tempo, lugar e forma estabelecidos pela câmara, em razão de circunstâncias que, a critério da câmara, não afetam a possibilidade de adimplemento.",
+      "synonyms_and_related": [
+        "inadimplência",
+        "falha operacional"
+      ]
+    },
+    {
+      "id": 59,
+      "term": "doador",
+      "category": "Empréstimo de Ativos",
+      "definition": "Participante que, em operação de empréstimo ou de troca, tem na data pactuada o dever de entregar e, até o vencimento da operação, o direito de receber determinados ativos.",
+      "synonyms_and_related": [
+        "tomador",
+        "empréstimo de ativos",
+        "troca"
+      ]
+    },
+    {
+      "id": 60,
+      "term": "emissor",
+      "category": "Participantes Cadastrados / Mercado",
+      "definition": "Pessoa jurídica, fundo ou entidade de investimento coletivo, responsável pelas obrigações inerentes aos ativos por ele emitidos, bem como por seus lastros e garantias subjacentes.",
+      "synonyms_and_related": [
+        "evento corporativo",
+        "ativos"
+      ]
+    },
+    {
+      "id": 61,
+      "term": "empréstimo",
+      "category": "Operações / Empréstimo",
+      "definition": "Operação de mútuo de ativos, por determinado prazo e com o pagamento de taxa pelo tomador ao doador.",
+      "synonyms_and_related": [
+        "doador",
+        "tomador",
+        "mútuo de ativos"
+      ]
+    },
+    {
+      "id": 62,
+      "term": "encargos",
+      "category": "Financeiro / Tarifas",
+      "definition": "Multas, reembolsos e quaisquer outros valores devidos à B3, que não sejam custos.",
+      "synonyms_and_related": [
+        "custos",
+        "multa"
+      ]
+    },
+    {
+      "id": 63,
+      "term": "entrega",
+      "category": "Operacional / Liquidação",
+      "definition": "Transferência de ativos, mercadorias e moeda estrangeira com a finalidade de liquidar obrigações decorrentes de operações.",
+      "synonyms_and_related": [
+        "liquidação física",
+        "falha de entrega"
+      ]
+    },
+    {
+      "id": 64,
+      "term": "escriturador",
+      "category": "Participantes Cadastrados / Custódia",
+      "definition": "Pessoa jurídica devidamente autorizada pela CVM para prestar serviço de escrituração de ativos, nos termos da regulamentação em vigor.",
+      "synonyms_and_related": [
+        "CVM",
+        "escrituração de ativos"
+      ]
+    },
+    {
+      "id": 65,
+      "term": "evento corporativo",
+      "category": "Custódia / Eventos",
+      "definition": "Obrigações do emissor relativas aos ativos por ele emitidos e depositados na central depositária da B3.",
+      "synonyms_and_related": [
+        "emissor",
+        "proventos",
+        "evento corporativo voluntário"
+      ]
+    },
+    {
+      "id": 66,
+      "term": "evento corporativo voluntário",
+      "category": "Custódia / Eventos",
+      "definition": "Evento corporativo que necessita da manifestação formal do comitente, por meio do agente de custódia, para a geração de efeitos perante a central depositária da B3.",
+      "synonyms_and_related": [
+        "evento corporativo",
+        "comitente",
+        "agente de custódia"
+      ]
+    },
+    {
+      "id": 67,
+      "term": "falha de entrega",
+      "category": "Operacional / Risco",
+      "definition": "Não transferência da totalidade de ativos, mercadorias ou moeda estrangeira que constituam obrigação de entrega.",
+      "synonyms_and_related": [
+        "entrega",
+        "inadimplência"
+      ]
+    },
+    {
+      "id": 68,
+      "term": "finalidade",
+      "category": "Contas / Títulos Públicos",
+      "definition": "Subconta de conta de depósito de título público federal, para segregação de saldo de ativos-objeto de operações liquidadas pela câmara, com características e propósito específicos.",
+      "synonyms_and_related": [
+        "conta de depósito de título público federal",
+        "segregação"
+      ]
+    },
+    {
+      "id": 69,
+      "term": "fundidor de ouro",
+      "category": "Participantes Cadastrados / Commodities",
+      "definition": "Instituição financeira cadastrada pela B3, responsável pela produção, recebimento, guarda e conservação dos lingotes de ouro custodiados na central depositária da B3.",
+      "synonyms_and_related": [
+        "depositário de ouro",
+        "ouro ativo financeiro"
+      ]
+    },
+    {
+      "id": 70,
+      "term": "fundo de liquidação",
+      "category": "Risco / Salvaguardas",
+      "definition": "Conjunto de recursos financeiros e ativos depositados na câmara por participantes e a B3 com o objetivo de cobertura de perdas associadas ao potencial inadimplemento de um ou mais membros de compensação perante a câmara.",
+      "synonyms_and_related": [
+        "salvaguardas",
+        "inadimplência",
+        "membro de compensação"
+      ]
+    },
+    {
+      "id": 71,
+      "term": "garantias",
+      "category": "Garantias / Risco",
+      "definition": "Ativos, recursos financeiros, direitos, contratos e outros instrumentos depositados para assegurar a certeza do cumprimento das obrigações dos participantes perante a câmara ou o sistema externo. Quando mencionado nos normativos da câmara, o termo garantias refere-se exclusivamente àquelas depositadas perante a câmara.",
+      "synonyms_and_related": [
+        "depósito de garantias",
+        "margem",
+        "cobertura"
+      ]
+    },
+    {
+      "id": 72,
+      "term": "habilitação",
+      "category": "Acesso e Governança",
+      "definition": "Procedimento pelo qual o participante detentor de autorização de acesso, após cumprir todos os requisitos indicados nas regras de acesso estabelecidas em regulamento e manual específicos da B3, está apto a atuar em determinado ambiente, mercado ou sistema administrado pela B3.",
+      "synonyms_and_related": [
+        "autorização de acesso",
+        "participante autorizado"
+      ]
+    },
+    {
+      "id": 73,
+      "term": "inadimplência",
+      "category": "Risco / Liquidação",
+      "definition": "Descumprimento de obrigações no tempo, no lugar e na forma devidos, podendo ou não ser sanado.",
+      "synonyms_and_related": [
+        "inadimplente",
+        "devedor operacional"
+      ]
+    },
+    {
+      "id": 74,
+      "term": "inadimplente",
+      "category": "Risco / Liquidação",
+      "definition": "Participante, inclusive comitente, que não cumpriu suas obrigações, no tempo, no lugar e na forma estabelecidos pela B3 e que seja assim declarado por ela.",
+      "synonyms_and_related": [
+        "inadimplência",
+        "participante"
+      ]
+    },
+    {
+      "id": 75,
+      "term": "investidor",
+      "category": "Participantes Cadastrados / Clientes",
+      "definition": "Ver comitente.",
+      "synonyms_and_related": [
+        "comitente"
+      ]
+    },
+    {
+      "id": 76,
+      "term": "janela de liquidação",
+      "category": "Operacional / Liquidação",
+      "definition": "Período de tempo no qual ocorre a liquidação, com a efetivação, pelos participantes e pela câmara, das entregas e dos pagamentos devidos.",
+      "synonyms_and_related": [
+        "ciclo de liquidação",
+        "liquidação"
+      ]
+    },
+    {
+      "id": 77,
+      "term": "limite de custódia",
+      "category": "Custódia / Risco",
+      "definition": "Limite atribuído pela B3 ao agente de custódia para o valor total dos ativos mantidos em contas de depósito, sob sua responsabilidade.",
+      "synonyms_and_related": [
+        "agente de custódia",
+        "conta de depósito"
+      ]
+    },
+    {
+      "id": 78,
+      "term": "limite de risco intradiário",
+      "category": "Risco / Controle",
+      "definition": "Limite de exposição ao risco estabelecido pela câmara para cada participante de negociação pleno e participante de liquidação ou para um ou mais conjunto de contas sob sua responsabilidade.",
+      "synonyms_and_related": [
+        "sistema de risco intradiário",
+        "limite operacional"
+      ]
+    },
+    {
+      "id": 79,
+      "term": "limite operacional",
+      "category": "Risco / Controle",
+      "definition": "Qualquer limite atribuído pela câmara aos seus participantes e por estes a seus clientes para restringir o risco associado à liquidação de operações sob suas responsabilidades bem como à utilização de garantias.",
+      "synonyms_and_related": [
+        "limite de risco intradiário",
+        "garantias"
+      ]
+    },
+    {
+      "id": 80,
+      "term": "liquidação",
+      "category": "Operacional / Liquidação",
+      "definition": "Extinção de obrigações, seja da câmara ou dos participantes.",
+      "synonyms_and_related": [
+        "liquidação bruta",
+        "liquidação pelo saldo líquido multilateral",
+        "pagamento",
+        "entrega"
+      ]
+    },
+    {
+      "id": 81,
+      "term": "liquidação bruta",
+      "category": "Operacional / Liquidação",
+      "definition": "Liquidação pelo valor bruto das operações das contrapartes, uma a uma.",
+      "synonyms_and_related": [
+        "valor bruto",
+        "liquidação pelo saldo líquido bilateral"
+      ]
+    },
+    {
+      "id": 82,
+      "term": "liquidação pelo saldo líquido bilateral",
+      "category": "Operacional / Liquidação",
+      "definition": "Extinção das obrigações da câmara ou dos participantes, pelos saldos líquidos bilaterais das contrapartes.",
+      "synonyms_and_related": [
+        "saldo líquido bilateral",
+        "compensação"
+      ]
+    },
+    {
+      "id": 83,
+      "term": "liquidação pelo saldo líquido multilateral",
+      "category": "Operacional / Liquidação",
+      "definition": "Liquidação pelos saldos líquidos multilaterais das contrapartes.",
+      "synonyms_and_related": [
+        "saldo líquido multilateral",
+        "contraparte central"
+      ]
+    },
+    {
+      "id": 84,
+      "term": "liquidante",
+      "category": "Participantes Cadastrados / Liquidação",
+      "definition": "Participante que utiliza sua conta Reservas Bancárias ou conta de Liquidação para efetuar ou receber os pagamentos referentes ao processo de liquidação.",
+      "synonyms_and_related": [
+        "conta Reservas Bancárias",
+        "conta de Liquidação"
+      ]
+    },
+    {
+      "id": 85,
+      "term": "margem",
+      "category": "Garantias / Risco",
+      "definition": "Valor a ser depositado em garantias exigidas pela câmara para suportar risco gerado por operações.",
+      "synonyms_and_related": [
+        "garantias",
+        "depósito de garantias"
+      ]
+    },
+    {
+      "id": 86,
+      "term": "membro de compensação",
+      "category": "Participantes Autorizados / Clearing",
+      "definition": "Participante detentor de autorização de acesso para liquidação perante a câmara, de acordo com as regras e procedimentos de acesso específicos da B3.",
+      "synonyms_and_related": [
+        "câmara",
+        "participante autorizado"
+      ]
+    },
+    {
+      "id": 87,
+      "term": "mensagem",
+      "category": "Sistemas / Comunicação",
+      "definition": "Conjunto de informações padronizadas, transmitidas por meio eletrônico.",
+      "synonyms_and_related": [
+        "mensagem LDL",
+        "catálogo de mensagens do SPB"
+      ]
+    },
+    {
+      "id": 88,
+      "term": "mensagem LDL",
+      "category": "Sistemas de Pagamento / SPB",
+      "definition": "Grupo de mensagens do catálogo de mensagens do SPB utilizadas para a liquidação pelo saldo líquido multilateral de câmaras, movimentação de garantias e pagamentos de custos, encargos e eventos corporativos.",
+      "synonyms_and_related": [
+        "catálogo de mensagens do SPB",
+        "SPB",
+        "saldo líquido multilateral"
+      ]
+    },
+    {
+      "id": 89,
+      "term": "mercado da B3",
+      "category": "Ambientes de Mercado",
+      "definition": "Mercado administrado pela B3 ou a ela vinculado para fins de (i) registro e negociação de ativos e (ii) registro e compensação das operações nele realizadas e liquidação das obrigações delas decorrentes.",
+      "synonyms_and_related": [
+        "mercado de bolsa",
+        "mercado de balcão organizado"
+      ]
+    },
+    {
+      "id": 90,
+      "term": "mercado de balcão não organizado",
+      "category": "Ambientes de Mercado",
+      "definition": "Mercado onde se realizam operações entre duas contrapartes sem o envolvimento de uma entidade administradora.",
+      "synonyms_and_related": [
+        "mercado de balcão organizado"
+      ]
+    },
+    {
+      "id": 91,
+      "term": "mercado de balcão organizado",
+      "category": "Ambientes de Mercado",
+      "definition": "Mercado onde se realizam operações entre duas contrapartes com aplicação de regras e sob supervisão de uma entidade administradora.",
+      "synonyms_and_related": [
+        "mercado de bolsa",
+        "mercado de balcão não organizado"
+      ]
+    },
+    {
+      "id": 92,
+      "term": "mercado de bolsa",
+      "category": "Ambientes de Mercado",
+      "definition": "Mercado que funciona regularmente como sistema centralizado e multilateral de negociação e que possibilita o encontro e a interação de ofertas de compra e venda de ativos, derivativos, mercadorias e moeda estrangeira.",
+      "synonyms_and_related": [
+        "ambiente de negociação",
+        "mercado de balcão organizado"
+      ]
+    },
+    {
+      "id": 93,
+      "term": "mercado de câmbio",
+      "category": "Ambientes de Mercado / Câmbio",
+      "definition": "Mercado onde são realizadas as operações envolvendo moeda estrangeira.",
+      "synonyms_and_related": [
+        "operação de câmbio",
+        "moeda estrangeira"
+      ]
+    },
+    {
+      "id": 94,
+      "term": "mercado de derivativos",
+      "category": "Ambientes de Mercado / Derivativos",
+      "definition": "Mercado onde são realizadas as operações envolvendo os derivativos quer sejam padronizados ou não.",
+      "synonyms_and_related": [
+        "derivativo",
+        "mercado de bolsa"
+      ]
+    },
+    {
+      "id": 95,
+      "term": "mercado de renda fixa privada",
+      "category": "Ambientes de Mercado / Renda Fixa",
+      "definition": "Mercado onde são realizadas as operações envolvendo ativos cujas obrigações são de origem privada.",
+      "synonyms_and_related": [
+        "renda fixa pública",
+        "ativo"
+      ]
+    },
+    {
+      "id": 96,
+      "term": "mercado de renda fixa pública",
+      "category": "Ambientes de Mercado / Renda Fixa",
+      "definition": "Mercado onde são realizadas operações envolvendo os títulos representativos da dívida pública.",
+      "synonyms_and_related": [
+        "SELIC",
+        "títulos públicos",
+        "renda fixa privada"
+      ]
+    },
+    {
+      "id": 97,
+      "term": "mercado de renda variável",
+      "category": "Ambientes de Mercado / Renda Variável",
+      "definition": "Mercado onde são realizadas as operações envolvendo ativos e derivativos cuja rentabilidade varia em função do seu preço.",
+      "synonyms_and_related": [
+        "ações",
+        "derivativos",
+        "central depositária da B3"
+      ]
+    },
+    {
+      "id": 98,
+      "term": "mercadoria",
+      "category": "Commodities",
+      "definition": "Produto não financeiro, de origem agrícola, mineral e ambiental, objeto de negociação na B3.",
+      "synonyms_and_related": [
+        "commodities",
+        "agronegócio",
+        "qualidade"
+      ]
+    },
+    {
+      "id": 99,
+      "term": "moeda estrangeira",
+      "category": "Câmbio",
+      "definition": "Moeda estrangeira que é objeto de operações de câmbio.",
+      "synonyms_and_related": [
+        "mercado de câmbio",
+        "operação de câmbio"
+      ]
+    },
+    {
+      "id": 100,
+      "term": "movimentação de ativos",
+      "category": "Custódia / Operacional",
+      "definition": "Depósito de ativos, retirada de ativos, transferência de ativos e entrega de ativos junto à central depositária.",
+      "synonyms_and_related": [
+        "central depositária",
+        "transferência de ativos",
+        "depósito de ativos"
+      ]
+    },
+    {
+      "id": 101,
+      "term": "multa",
+      "category": "Penalidades / Penal",
+      "definition": "Valor devido por participante à B3 a título de penalidade pelo descumprimento de qualquer obrigação ou regra estabelecida pela B3.",
+      "synonyms_and_related": [
+        "encargos",
+        "inadimplência"
+      ]
+    },
+    {
+      "id": 102,
+      "term": "operação",
+      "category": "Operações",
+      "definition": "Todo e qualquer negócio envolvendo ativos, derivativos, moeda estrangeira e mercadorias realizado ou registrado na B3 ou em sistema externo, que implique em assunção de obrigações.",
+      "synonyms_and_related": [
+        "operação definitiva",
+        "operação compromissada",
+        "operação de câmbio"
+      ]
+    },
+    {
+      "id": 103,
+      "term": "operação compromissada",
+      "category": "Operações / Renda Fixa",
+      "definition": "Operação de compra ou de venda de um ativo, cumulada com compromisso de revenda ou de recompra do mesmo ativo.",
+      "synonyms_and_related": [
+        "operação compromissada específica",
+        "posição líquida financiada"
+      ]
+    },
+    {
+      "id": 104,
+      "term": "operação compromissada específica",
+      "category": "Operações / Renda Fixa",
+      "definition": "Operação compromissada cujo ativo-objeto é previamente identificado na contratação.",
+      "synonyms_and_related": [
+        "operação compromissada"
+      ]
+    },
+    {
+      "id": 105,
+      "term": "operação de câmbio",
+      "category": "Operações / Câmbio",
+      "definition": "Operação de compra e venda de moedas estrangeiras.",
+      "synonyms_and_related": [
+        "mercado de câmbio",
+        "moeda estrangeira",
+        "contratação de câmbio"
+      ]
+    },
+    {
+      "id": 106,
+      "term": "operação definitiva",
+      "category": "Operações",
+      "definition": "Operação de compra e venda de um ativo, inclusive as compreendidas em uma operação compromissada.",
+      "synonyms_and_related": [
+        "operação compromissada",
+        "compra e venda"
+      ]
+    },
+    {
+      "id": 107,
+      "term": "ordem de entrega por liquidação física",
+      "category": "Commodities / Liquidação",
+      "definition": "Documento encaminhado pela câmara ao participante de negociação pleno responsável pelo comitente comprador e ao depositário do agronegócio onde a mercadoria encontra-se armazenada, que atesta a transferência da titularidade da mercadoria ao comitente comprador, momento em que este pode retirar a mercadoria no depositário do agronegócio indicado pelo comitente vendedor.",
+      "synonyms_and_related": [
+        "depositário do agronegócio",
+        "liquidação física",
+        "programação de entrega"
+      ]
+    },
+    {
+      "id": 108,
+      "term": "pagamento",
+      "category": "Operacional / Liquidação",
+      "definition": "Transferência de recursos financeiros com a finalidade de cumprir obrigações relativas às operações.",
+      "synonyms_and_related": [
+        "liquidação financeira",
+        "entrega"
+      ]
+    },
+    {
+      "id": 109,
+      "term": "participante",
+      "category": "Participantes",
+      "definition": "Pessoa física, pessoa jurídica, fundo ou entidade de investimento coletivo com autorização de acesso ou com cadastro, inclusive comitente, que segue regras de acesso ou de cadastro estabelecidas em regulamento específico da B3.",
+      "synonyms_and_related": [
+        "participante autorizado",
+        "participante cadastrado"
+      ]
+    },
+    {
+      "id": 110,
+      "term": "participante autorizado",
+      "category": "Participantes / Autorizados",
+      "definition": "Pessoa jurídica, fundo ou entidade de investimento coletivo com autorização de acesso outorgada pelo Presidente da B3, nos termos de seu estatuto social e da regulamentação em vigor, que segue regras de acesso estabelecidas pela B3 em regulamento específico, sendo considerados como participantes autorizados: (i) participante de negociação pleno; (ii) participante de negociação; (iii) membro de compensação; (iv) participante de liquidação; (v) agente de custódia; (vi) participante de registro; e (vii) sistema externo.",
+      "synonyms_and_related": [
+        "autorização de acesso",
+        "habilitação"
+      ]
+    },
+    {
+      "id": 111,
+      "term": "participante cadastrado",
+      "category": "Participantes / Cadastrados",
+      "definition": "Pessoa física, jurídica, fundo ou entidade de investimento coletivo, que segue procedimentos, fluxos e regras de cadastro, sendo considerados como participantes cadastrados: (i) emissor; (ii) escriturador; (iii) liquidante; (iv) depositário do agronegócio; (v) depositário de ouro; (vi) fundidor de ouro; (vii) administrador de clubes de investimento; (viii) banco correspondente; (ix) banco emissor de garantias; (x) supervisora de qualidade de produtos agrícolas; (xi) comitente; e (xii) outros estabelecidos no manual de acesso da B3.",
+      "synonyms_and_related": [
+        "cadastro",
+        "comitente",
+        "emissor"
+      ]
+    },
+    {
+      "id": 112,
+      "term": "participante de liquidação",
+      "category": "Participantes Autorizados / Liquidação",
+      "definition": "Participante detentor de autorização de acesso para atuar no processo de compensação e liquidação, com acesso direto ao ambiente de contratação empréstimo e sem acesso direto ao ambiente de negociação administrado pela B3, devendo receber, via repasse, as operações realizadas no referido ambiente de negociação, e assumindo a responsabilidade pelas posições e liquidação de operações próprias ou de seus clientes.",
+      "synonyms_and_related": [
+        "repasse",
+        "compensação e liquidação"
+      ]
+    },
+    {
+      "id": 113,
+      "term": "participante de negociação",
+      "category": "Participantes Autorizados / Negociação",
+      "definition": "Participante detentor de autorização de acesso para a intermediação de operações de comitentes e para a realização de operações próprias, acessando os ambientes de negociação e de contratação de empréstimo administrados pela B3 por meio de um participante de negociação pleno e liquidando suas obrigações por meio e sob a responsabilidade de um participante de negociação pleno e um membro de compensação.",
+      "synonyms_and_related": [
+        "participante de negociação pleno",
+        "membro de compensação"
+      ]
+    },
+    {
+      "id": 114,
+      "term": "participante de negociação pleno",
+      "category": "Participantes Autorizados / Negociação",
+      "definition": "Participante detentor de autorização de acesso para negociação, de acordo com as regras e procedimentos de acesso específicos da B3.",
+      "synonyms_and_related": [
+        "participante de negociação",
+        "repasse"
+      ]
+    },
+    {
+      "id": 115,
+      "term": "participante de registro",
+      "category": "Participantes Autorizados / Registro",
+      "definition": "Participante detentor de autorização de acesso para registro de ativos e operações em ambiente de registro, de acordo com as regras e procedimentos de acesso específicos da B3.",
+      "synonyms_and_related": [
+        "ambiente de registro",
+        "registro de ativos"
+      ]
+    },
+    {
+      "id": 116,
+      "term": "participante-destino",
+      "category": "Operacional / Repasse",
+      "definition": "Participante de negociação pleno ou participante de liquidação que recebe uma operação via repasse realizado pelo participante-origem.",
+      "synonyms_and_related": [
+        "participante-origem",
+        "repasse"
+      ]
+    },
+    {
+      "id": 117,
+      "term": "participante-origem",
+      "category": "Operacional / Repasse",
+      "definition": "(i) Participante de negociação pleno que realiza a operação nos ambientes de negociação ou de contratação de empréstimo ou registra a operação em sistema de registro administrados pela B3, por conta e ordem de comitente, de outro participante de negociação pleno ou de um participante de liquidação; ou (ii) participante de negociação pleno ou participante de liquidação que tenha recebido uma operação via repasse.",
+      "synonyms_and_related": [
+        "participante-destino",
+        "repasse"
+      ]
+    },
+    {
+      "id": 118,
+      "term": "patrimônio especial",
+      "category": "Risco / Salvaguardas",
+      "definition": "Patrimônio destacado pela B3, nos termos da legislação em vigor, para garantir exclusivamente o cumprimento de obrigações decorrentes de operações aceitas pela câmara.",
+      "synonyms_and_related": [
+        "salvaguardas",
+        "fundo de liquidação",
+        "câmara"
+      ]
+    },
+    {
+      "id": 119,
+      "term": "plano de recuperação",
+      "category": "Governança / Continuidade",
+      "definition": "Documento, aprovado pelo Conselho de Administração da B3, que define e formaliza um conjunto de estratégias de recuperação, em resposta a cenários extremos com potencial de afetar a continuidade dos serviços e sistemas críticos oferecidos pela B3.",
+      "synonyms_and_related": [
+        "continuidade de negócios",
+        "salvaguardas"
+      ]
+    },
+    {
+      "id": 120,
+      "term": "portfólio",
+      "category": "Contas e Custódia",
+      "definition": "Conjunto de posições de um comitente.",
+      "synonyms_and_related": [
+        "comitente",
+        "posição"
+      ]
+    },
+    {
+      "id": 121,
+      "term": "posição",
+      "category": "Contas e Custódia",
+      "definition": "Quantidade líquida de determinado ativo negociado no mercado à vista e a liquidar, determinado instrumento de contrato derivativo ou de empréstimo, ou determinada moeda estrangeira, registrada em uma conta.",
+      "synonyms_and_related": [
+        "controle de posições",
+        "conta de posição",
+        "portfólio"
+      ]
+    },
+    {
+      "id": 122,
+      "term": "posição líquida financiada",
+      "category": "Renda Fixa / Liquidação",
+      "definition": "Direito de recebimento de recursos financeiros pelo participante, apurado como resultado da compensação de toda operação de compra e venda atinente a operações compromissadas com lastro genérico, cuja data de liquidação seja a mesma da operação de recompra e revenda.",
+      "synonyms_and_related": [
+        "posição líquida financiadora",
+        "operação compromissada"
+      ]
+    },
+    {
+      "id": 123,
+      "term": "posição líquida financiadora",
+      "category": "Renda Fixa / Liquidação",
+      "definition": "Obrigação de pagamento do participante, apurado como resultado da compensação de toda operação de compra e venda atinente a operações compromissadas com lastro genérico, cuja data de liquidação seja a mesma da operação de recompra e revenda.",
+      "synonyms_and_related": [
+        "posição líquida financiada",
+        "operação compromissada"
+      ]
+    },
+    {
+      "id": 124,
+      "term": "preço de referência",
+      "category": "Risco / Pricing",
+      "definition": "Valor estabelecido pela câmara para determinado ativo, considerado na administração de risco e na eventual liquidação financeira do dever de entrega do ativo pela câmara.",
+      "synonyms_and_related": [
+        "administração de risco",
+        "liquidação financeira"
+      ]
+    },
+    {
+      "id": 125,
+      "term": "processo de admissão",
+      "category": "Acesso e Governança",
+      "definition": "Procedimento pelo qual se requer à B3 a outorga de autorização de acesso de acordo com as regras e procedimentos de acesso específicos da B3.",
+      "synonyms_and_related": [
+        "autorização de acesso",
+        "habilitação"
+      ]
+    },
+    {
+      "id": 126,
+      "term": "programação de entrega",
+      "category": "Commodities / Liquidação",
+      "definition": "Documento enviado à câmara que contém a programação definida pelo comitente comprador ou vendedor para entrega e/ou recebimento de mercadoria em determinados contratos derivativos.",
+      "synonyms_and_related": [
+        "ordem de entrega por liquidação física",
+        "entrega física"
+      ]
+    },
+    {
+      "id": 127,
+      "term": "qualidade",
+      "category": "Commodities",
+      "definition": "Características necessárias à mercadoria sujeita ao procedimento de entrega física.",
+      "synonyms_and_related": [
+        "supervisora de qualidade de produtos agrícolas",
+        "termo de qualidade e recebimento"
+      ]
+    },
+    {
+      "id": 128,
+      "term": "registro",
+      "category": "Operacional / Registro",
+      "definition": "Ato de formalização e inscrição de uma operação ou ativo em ambiente de negociação, ambiente de registro e na câmara, bem como de guarda e depósito do ativo em central depositária, no emissor e no escriturador por este contratado.",
+      "synonyms_and_related": [
+        "ambiente de registro",
+        "central depositária"
+      ]
+    },
+    {
+      "id": 129,
+      "term": "repasse",
+      "category": "Operacional / Repasse",
+      "definition": "Procedimento por meio do qual o participante-origem de uma operação e seu respectivo membro de compensação transferem a responsabilidade de sua liquidação, direitos e obrigações, administração de risco e posições derivados da operação para o participante-destino, mediante a confirmação de repasse.",
+      "synonyms_and_related": [
+        "participante-origem",
+        "participante-destino",
+        "repasse parcial"
+      ]
+    },
+    {
+      "id": 130,
+      "term": "repasse parcial",
+      "category": "Operacional / Repasse",
+      "definition": "Repasse de quantidade inferior à quantidade total da operação.",
+      "synonyms_and_related": [
+        "repasse"
+      ]
+    },
+    {
+      "id": 131,
+      "term": "região-base",
+      "category": "Commodities / Pricing",
+      "definition": "Região, definida pela B3 e divulgada por meio de Ofício Circular, para formação de preço e entrega física de mercadoria.",
+      "synonyms_and_related": [
+        "entrega física",
+        "mercadoria"
+      ]
+    },
+    {
+      "id": 132,
+      "term": "retirada de ativos",
+      "category": "Custódia / Operacional",
+      "definition": "Procedimento por meio do qual se realiza a retirada do ativo do serviço de depósito centralizado da central depositária e com o respectivo registro na conta de depósito do comitente.",
+      "synonyms_and_related": [
+        "depósito de ativos",
+        "retirada geral de ativos"
+      ]
+    },
+    {
+      "id": 133,
+      "term": "retirada geral de ativos",
+      "category": "Custódia / Operacional",
+      "definition": "Procedimento por meio do qual se realiza a retirada de todos os ativos emitidos por determinado emissor do serviço de depósito centralizado da central depositária da B3, com o respectivo registro nas contas de depósito dos comitentes.",
+      "synonyms_and_related": [
+        "retirada de ativos",
+        "emissor"
+      ]
+    },
+    {
+      "id": 134,
+      "term": "saldo líquido bilateral",
+      "category": "Clearing / Liquidação",
+      "definition": "Valor resultante da compensação bilateral das obrigações das contrapartes, devido por um participante à contraparte e vice-versa, em cada data de liquidação, em ativos, derivativos, moeda estrangeira e moeda nacional.",
+      "synonyms_and_related": [
+        "liquidação pelo saldo líquido bilateral",
+        "saldo líquido multilateral"
+      ]
+    },
+    {
+      "id": 135,
+      "term": "saldo líquido multilateral",
+      "category": "Clearing / Liquidação",
+      "definition": "Valor resultante da compensação multilateral das obrigações das contrapartes, obtido por meio da soma dos respectivos saldos líquidos bilaterais, e devido pelo participante à câmara ou por esta ao participante em cada data de liquidação, em ativos, derivativos, moeda estrangeira e moeda nacional.",
+      "synonyms_and_related": [
+        "liquidação pelo saldo líquido multilateral",
+        "contraparte central"
+      ]
+    },
+    {
+      "id": 136,
+      "term": "salvaguardas",
+      "category": "Risco / Mitigação",
+      "definition": "Princípios, regras, critérios e mecanismos adotados para assegurar, direta ou indiretamente, o processo de liquidação e a integridade dos mercados, ambientes e sistemas administrados pela B3.",
+      "synonyms_and_related": [
+        "fundo de liquidação",
+        "patrimônio especial"
+      ]
+    },
+    {
+      "id": 137,
+      "term": "segmento de mercado",
+      "category": "Mercado",
+      "definition": "Conjunto de atividades relacionadas às operações com ativos de características semelhantes.",
+      "synonyms_and_related": [
+        "mercado da B3"
+      ]
+    },
+    {
+      "id": 138,
+      "term": "sistema de negociação",
+      "category": "Ambientes de Mercado",
+      "definition": "Ver ambiente de negociação.",
+      "synonyms_and_related": [
+        "ambiente de negociação"
+      ]
+    },
+    {
+      "id": 139,
+      "term": "sistema de contratação de empréstimo",
+      "category": "Ambientes de Mercado",
+      "definition": "Ver ambiente de contratação de empréstimo.",
+      "synonyms_and_related": [
+        "ambiente de contratação de empréstimo"
+      ]
+    },
+    {
+      "id": 140,
+      "term": "sistema de registro",
+      "category": "Ambientes de Mercado",
+      "definition": "Ver ambiente de registro.",
+      "synonyms_and_related": [
+        "ambiente de registro"
+      ]
+    },
+    {
+      "id": 141,
+      "term": "sistema de risco intradiário",
+      "category": "Sistemas / Risco",
+      "definition": "Sistema da B3 que avalia o risco das operações no período compreendido entre o início e término da sessão de negociação.",
+      "synonyms_and_related": [
+        "limite de risco intradiário",
+        "sistema de risco pré-negociação"
+      ]
+    },
+    {
+      "id": 142,
+      "term": "sistema de risco pré-negociação",
+      "category": "Sistemas / Risco",
+      "definition": "Sistema da B3 que avalia o risco das operações antes de seu registro em ambientes de negociação administrados pela B3.",
+      "synonyms_and_related": [
+        "sistema de risco intradiário",
+        "administração de risco"
+      ]
+    },
+    {
+      "id": 143,
+      "term": "sistema externo",
+      "category": "Infraestrutura / Acesso",
+      "definition": "Sistema de negociação, sistema de contratação de empréstimo, sistema de compensação e liquidação ou central depositária detentor(a) de autorização de acesso para uso da câmara ou da central depositária da B3.",
+      "synonyms_and_related": [
+        "participante autorizado"
+      ]
+    },
+    {
+      "id": 144,
+      "term": "situação especial",
+      "category": "Risco / Governança",
+      "definition": "A ocorrência, cumulativamente ou não, dos eventos de: (i) existência de posições na câmara ou saldos de ativos na central depositária da B3 sob a responsabilidade de participante requerente de cancelamento de autorização de acesso para atuar como participante de negociação pleno, participante de negociação, participante de liquidação ou agente de custódia, esgotados os prazos para que tais posições ou saldos de ativos fossem encerrados ou transferidos para outros participantes; (ii) determinação, pela B3, de cancelamento da autorização de acesso de instituição que atua como participante de negociação pleno, participante de negociação, participante de liquidação ou agente de custódia; (iii) revogação da autorização de funcionamento de instituição que atua como participante de negociação pleno, participante de negociação, participante de liquidação ou agente de custódia, pela CVM; (iv) cancelamento de ofício de autorização de funcionamento de instituição que atua como participante de negociação pleno, participante de negociação, participante de liquidação ou agente de custódia, determinado pelo BCB; (v) submissão do participante de negociação pleno, do participante de negociação, do participante de liquidação ou agente de custódia aos regimes de recuperação judicial ou extrajudicial, intervenção, administração especial temporária, falência ou liquidação extrajudicial; (vi) declaração de inadimplência do participante de negociação pleno, do participante de negociação ou do participante de liquidação perante a câmara.",
+      "synonyms_and_related": [
+        "inadimplência",
+        "cancelamento de autorização",
+        "CVM",
+        "BCB"
+      ]
+    },
+    {
+      "id": 145,
+      "term": "supervisora de qualidade de produtos agrícolas",
+      "category": "Participantes Cadastrados / Commodities",
+      "definition": "Entidade que presta serviços de caráter auxiliar em relação às atividades da câmara, quais sejam a análise das mercadorias e a sua certificação de conformidade às características especificadas nos derivativos.",
+      "synonyms_and_related": [
+        "qualidade",
+        "mercadoria",
+        "termo de qualidade e recebimento"
+      ]
+    },
+    {
+      "id": 146,
+      "term": "termo de qualidade e recebimento",
+      "category": "Commodities / Documentos",
+      "definition": "Declaração do comitente comprador à câmara, de que a mercadoria por ele recebida encontra-se em perfeito estado de conservação e em conformidade às especificações contratuais (TQR).",
+      "synonyms_and_related": [
+        "TQR",
+        "qualidade",
+        "supervisora de qualidade de produtos agrícolas"
+      ]
+    },
+    {
+      "id": 147,
+      "term": "tomador",
+      "category": "Empréstimo de Ativos",
+      "definition": "Participante de operação de empréstimo ou de troca que é titular, na data pactuada, do direito de receber e, na data de vencimento da operação, do dever de entregar determinado ativo.",
+      "synonyms_and_related": [
+        "doador",
+        "empréstimo",
+        "troca"
+      ]
+    },
+    {
+      "id": 148,
+      "term": "transferência de ativos",
+      "category": "Custódia / Operacional",
+      "definition": "Procedimento por meio do qual se realiza a movimentação de ativos entre carteiras, contas de depósito ou contas de depósito de título público federal no serviço de depósito centralizado da central depositária e com o respectivo registro na(s) conta(s) de depósito ou conta(s) de depósito de título público federal do(s) comitente(s) envolvido(s).",
+      "synonyms_and_related": [
+        "movimentação de ativos",
+        "conta de depósito"
+      ]
+    },
+    {
+      "id": 149,
+      "term": "tratamento de dados pessoais",
+      "category": "Conformidade / LGPD",
+      "definition": "Toda operação que envolva dados pessoais, nos termos da LGPD.",
+      "synonyms_and_related": [
+        "LGPD",
+        "dado pessoal",
+        "controlador de dados pessoais"
+      ]
+    },
+    {
+      "id": 150,
+      "term": "troca",
+      "category": "Operações / Empréstimo",
+      "definition": "Operação de mútuo de ativos distintos pelo mesmo prazo, cujos registros são efetuados simultaneamente e de forma vinculada.",
+      "synonyms_and_related": [
+        "empréstimo",
+        "doador",
+        "tomador"
+      ]
+    },
+    {
+      "id": 151,
+      "term": "valor bruto",
+      "category": "Clearing / Liquidação",
+      "definition": "Valor resultante do somatório das obrigações não compensadas de um participante com sua contraparte, em ativos, derivativos, moeda estrangeira e moeda nacional.",
+      "synonyms_and_related": [
+        "liquidação bruta",
+        "saldo líquido bilateral"
+      ]
+    },
+    {
+      "id": 152,
+      "term": "vínculo",
+      "category": "Contas / Estrutura",
+      "definition": "Forma de relacionamento entre contas, com a indicação de funcionalidades e características específicas.",
+      "synonyms_and_related": [
+        "conta",
+        "carteira"
+      ]
+    }
+  ],
+  "acronyms": [
+    {
+      "acronym": "ANPD",
+      "expansion": "Autoridade Nacional de Proteção de Dados",
+      "description": "Órgão da administração pública federal responsável por zelar, implementar e fiscalizar o cumprimento da LGPD no Brasil."
+    },
+    {
+      "acronym": "B3",
+      "expansion": "B3 - Brasil, Bolsa, Balcão",
+      "description": "Entidade administradora de mercados organizados de bolsa e balcão no Brasil, prestadora de serviços de clearing, liquidação, custódia e registro."
+    },
+    {
+      "acronym": "Banco B3",
+      "expansion": "Banco B3 S.A.",
+      "description": "Banco múltiplo pertencente ao grupo B3 que atua na liquidação financeira de operações e prestação de serviços bancários aos participantes."
+    },
+    {
+      "acronym": "BBM",
+      "expansion": "Bolsa Brasileira de Mercadorias",
+      "description": "Associação civil responsável pela negociação de commodities agrícolas e licitações públicas."
+    },
+    {
+      "acronym": "BCB",
+      "expansion": "Banco Central do Brasil",
+      "description": "Autarquia federal encarregada de gerir a política econômica e o Sistema Financeiro Nacional (SFN)."
+    },
+    {
+      "acronym": "BSM",
+      "expansion": "BSM Supervisão de Mercados",
+      "description": "Associação civil responsável pela autorregulação e supervisão dos mercados administrados pela B3."
+    },
+    {
+      "acronym": "CMN",
+      "expansion": "Conselho Monetário Nacional",
+      "description": "Órgão superior do Sistema Financeiro Nacional responsável por fixar diretrizes da política monetária, creditícia e cambial."
+    },
+    {
+      "acronym": "COAF",
+      "expansion": "Conselho de Controle de Atividades Financeiras",
+      "description": "Órgão brasileiro de inteligência financeira encarregado de combater a lavagem de dinheiro e o financiamento do terrorismo."
+    },
+    {
+      "acronym": "CVM",
+      "expansion": "Comissão de Valores Mobiliários",
+      "description": "Autarquia federal que normatiza e fiscaliza o mercado de valores mobiliários no Brasil."
+    },
+    {
+      "acronym": "LGPD",
+      "expansion": "Lei Geral de Proteção de Dados",
+      "description": "Lei nº 13.709/2018 que regula as atividades de tratamento de dados pessoais no Brasil."
+    },
+    {
+      "acronym": "RSFN",
+      "expansion": "Rede do Sistema Financeiro Nacional",
+      "description": "Rede corporativa dedicada à comunicação de dados entre as instituições financeiras e o BCB/câmaras no âmbito do SPB."
+    },
+    {
+      "acronym": "SELIC",
+      "expansion": "Sistema Especial de Liquidação e Custódia",
+      "description": "Sistema de liquidação e custódia de títulos públicos federais emitidos pelo Tesouro Nacional, administrado pelo BCB."
+    },
+    {
+      "acronym": "SFN",
+      "expansion": "Sistema Financeiro Nacional",
+      "description": "Conjunto de instituições públicas e privadas que regulam, fiscalizam e intermediam a circulação de moeda e crédito no Brasil."
+    },
+    {
+      "acronym": "SPB",
+      "expansion": "Sistema de Pagamentos Brasileiro",
+      "description": "Conjunto de regras, procedimentos, instrumentos e sistemas operacionais que interconectam a transferência de fundos e liquidação de operações financeiras no Brasil."
+    },
+    {
+      "acronym": "STR",
+      "expansion": "Sistema de Transferência de Reservas",
+      "description": "Sistema administrado pelo BCB para transferência de fundos em tempo real entre instituições financeiras titular de conta no BCB."
+    },
+    {
+      "acronym": "STR WEB",
+      "expansion": "Acesso eletrônico ao STR",
+      "description": "Acesso eletrônico ao STR provido pelo BCB via rede mundial de computadores."
+    },
+    {
+      "acronym": "TQR",
+      "expansion": "Termo de Qualidade e Recebimento",
+      "description": "Declaração do comitente comprador à câmara atestando o perfeito estado e conformidade da mercadoria recebida."
+    }
+  ]
+}

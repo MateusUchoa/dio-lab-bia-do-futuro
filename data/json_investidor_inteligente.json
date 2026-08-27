@@ -1,0 +1,57 @@
+{
+  "livro": {
+    "titulo": "O Investidor Inteligente",
+    "autor": "Benjamin Graham",
+    "colaboradores": [
+      "Jason Zweig (Comentários)",
+      "Warren Buffett (Prefácio)"
+    ]
+  },
+  "conceitos_chave": {
+    "investimento_vs_especulacao": {
+      "definicao_investimento": "Operação que, após análise profunda, promete a segurança do principal e um retorno adequado.",
+      "definicao_especulacao": "Qualquer operação que não preencha os três critérios de investimento.",
+      "tres_pilares_investimento": [
+        "Análise exaustiva da saúde financeira da empresa",
+        "Proteção atenta contra prejuízos graves",
+        "Busca por retorno adequado e realista"
+      ]
+    },
+    "investidor_inteligente": {
+      "natureza": "Virtude de caráter, disciplina e controle emocional, e não de QI ou educação acadêmica avançada.",
+      "maior_inimigo": "O próprio investidor (incapacidade de controlar as emoções diante da euforia ou do pânico)."
+    },
+    "perfis_de_investidores": {
+      "defensivo_passivo": {
+        "objetivo": "Evitar perdas graves e erros com o mínimo de esforço e tempo.",
+        "estrategias": [
+          "Divisão equilibrada da carteira entre Ações e Renda Fixa (ex: 50/50)",
+          "Aplicações periódicas com valor fixo (Dollar-Cost Averaging)",
+          "Foco em empresas sólidas, líderes e com longo histórico de estabilidade"
+        ]
+      },
+      "empreendedor_ativo": {
+        "objetivo": "Obter retornos acima da média do mercado por meio de estudo e dedicação constante.",
+        "estrategias": [
+          "Seleção minuciosa de ações subvalorizadas em relação ao valor intrínseco",
+          "Aproveitamento de oportunidades impopulares e negligenciadas em Wall Street",
+          "Foco em comprar ativos baratos em vez de seguir modismos de crescimento"
+        ]
+      }
+    },
+    "mr_market": {
+      "descricao": "Metáfora do mercado como um sócio emocionalmente instável e imprevisível.",
+      "regra_ouro": "Servir-se do mercado quando ele oferece barganhas, e não deixar-se influenciar por suas oscilações emocionais."
+    },
+    "margem_de_seguranca": {
+      "definicao": "Comprar um ativo por um preço substancialmente inferior ao seu valor intrínseco estimado.",
+      "funcao": "Proteger contra erros de análise, imprevistos econômicos e quedas pontuais da empresa."
+    }
+  },
+  "licoes_criticas": [
+    "Crescimento e expansão de um setor não garantem lucros para o investidor se o preço pago for excessivo.",
+    "O preço pago é o fator determinante para o sucesso ou fracasso do investimento.",
+    "Flutuações de curto prazo refletem emoções; o investidor compra dos pessimistas e vende aos otimistas."
+  ],
+  "resumo_executivo": "O sucesso nos investimentos depende de um arcabouço intelectual coerente (comprar com Margem de Segurança e compreender o Sr. Mercado) aliado à disciplina emocional para resistir às oscilações do mercado."
+}

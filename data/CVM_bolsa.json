@@ -1,0 +1,46 @@
+{
+  "documento_titulo": "Guia CVM do Investidor: Como Funciona a Bolsa de Valores",
+  "instituicao_publicadora": "Comissão de Valores Mobiliários (CVM)",
+  "resumo": "Um guia oficial voltado aos investidores contendo informações sobre a negociação de ativos em bolsa, os participantes do mercado, estruturas de ordens, custos e mecanismos de proteção.[cite: 4]",
+  "base_de_conhecimento": [
+    {
+      "topico": "A Bolsa de Valores",
+      "conceito": "É um ambiente eletrônico regulado, organizado e administrado pela B3 no Brasil (através do sistema PUMA), que atua como um 'ponto de encontro' para investidores comprarem e venderem valores mobiliários (ações, debêntures, ETFs e fundos imobiliários).[cite: 4]"
+    },
+    {
+      "topico": "Intermediação e Agentes Autônomos",
+      "conceito": "Investidores não acessam a bolsa diretamente; precisam de intermediários (corretoras). Agentes Autônomos de Investimentos atuam na parte comercial e prestação de informações ligadas a essas corretoras, mas são proibidos de atuar como consultores, analistas ou administrar a carteira do cliente de forma autônoma.[cite: 4]"
+    },
+    {
+      "topico": "Tipos de Ordens de Negociação",
+      "detalhes": [
+        "Ordem a Mercado: Específica apenas a quantidade, fechando pelo melhor preço disponível na hora.[cite: 4]",
+        "Ordem Limitada: Só é executada por um preço igual ou melhor do que o especificado pelo investidor.[cite: 4]",
+        "Ordem Stop: É ativada (disparada) apenas quando os preços do mercado chegam a um valor pré-determinado, protegendo ganhos ou limitando perdas.[cite: 4]"
+      ]
+    },
+    {
+      "topico": "Book de Ofertas",
+      "conceito": "Livro eletrônico centralizado onde as intenções de compra e venda são ordenadas seguindo regras de prioridade baseadas no preço e, no caso de empate, na ordem cronológica (tempo).[cite: 4]"
+    },
+    {
+      "topico": "Liquidação e Custódia",
+      "conceito": "As ações e os ativos são mantidos de forma eletrônica (escritural) pela Central Depositária da B3. Quando ocorre uma negociação de ações, a liquidação financeira e a entrega dos ativos ocorrem em D+2 (dois dias úteis após o negócio).[cite: 4]"
+    },
+    {
+      "topico": "Custos e Tarifas",
+      "conceito": "Os custos operacionais principais incluem: Taxa de Corretagem (livremente negociada entre cliente e corretora), Taxa de Custódia, Emolumentos e Taxa de Liquidação (cobradas pela bolsa sobre o volume).[cite: 4]"
+    },
+    {
+      "topico": "Procedimentos Especiais da Bolsa",
+      "detalhes": [
+        "Leilões: Suspendem um ativo específico temporariamente se ocorrer ordens atípicas ou variação brusca, visando permitir ajustes.[cite: 4]",
+        "Circuit Breaker: Mecanismo de segurança que interrompe as negociações em toda a bolsa devido à alta volatilidade geral do Ibovespa. Queda de 10% suspende por 30 minutos; queda de 15% suspende por 1 hora; queda de 20% suspende por prazo a critério da bolsa.[cite: 4]"
+      ]
+    },
+    {
+      "topico": "Mecanismo de Ressarcimento de Prejuízos (MRP)",
+      "conceito": "Trata-se de uma proteção da BSM (B3) que cobre prejuízos de até R$ 120.000,00 causados exclusivamente por erros, omissões ou falhas operacionais das corretoras. O mecanismo não cobre prejuízos que sejam causados pelas variações de preços do mercado ou queda das ações. O prazo para solicitar o ressarcimento é de 18 meses.[cite: 4]"
+    }
+  ]
+}

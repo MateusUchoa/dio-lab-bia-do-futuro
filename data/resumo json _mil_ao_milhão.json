@@ -1,0 +1,150 @@
+{
+  "livro": {
+    "titulo": "Do mil ao Milhão Sem Cortar o Cafezinho",
+    "subtitulo": "Gastar bem | Investir melhor | Ganhar mais",
+    "autor": "Thiago Nigro",
+    "editora": "HarperCollins Brasil",
+    "ano_publicacao": 2018,
+    "prefacio_por": "Paulo Vieira"
+  },
+  "base_de_conhecimento": {
+    "prefacio": {
+      "autor": "Paulo Vieira (PhD, Master Coach e Presidente da Febracis)",
+      "resumo_capitulo": "Apresenta o conceito de Inteligência Emocional Financeira, destacando que enriquecer exige reprogramar crenças limitantes sobre dinheiro. Alinha os sentimentos, pensamentos e ações com as três competências centrais da riqueza: gastar bem, investir melhor e ganhar mais.",
+      "conceitos_chave": [
+        "Inteligência Emocional Financeira",
+        "Mudança de crenças limitantes sobre o enriquecimento",
+        "Os três pilares da prosperidade"
+      ]
+    },
+    "introducao": {
+      "resumo_capitulo": "Thiago Nigro relata sua trajetória pessoal, desde a perda do seu primeiro patrimônio aos 17 anos no mercado de ações até a conquista da independência financeira. Demonstra, por meio de dados históricos e estatísticos, como a falta de educação financeira no Brasil empurra a população para a poupança e o endividamento, e introduz os seis sacrifícios necessários para enriquecer.",
+      "dados_e_estatisticas_historicas": {
+        "rentabilidades_de_mercado": {
+          "acoes_brasil_2002_2008": "Acima de 400%",
+          "imoveis_2008_2012": "124%",
+          "bitcoin_2011_2017": "4.571.712%",
+          "titulos_publicos_longo_prazo": "100%"
+        },
+        "panorama_dos_brasileiros_2018": {
+          "poupanca": "Saldo superior a R$ 700 bilhões; rendimento de ~70% na década (2007-2017).",
+          "bolsa_de_valores_b3": "Apenas ~600 mil investidores (0,3% da população).",
+          "tesouro_direto": "572.182 aplicadores ativos; R$ 47,2 bilhões estocados."
+        }
+      },
+      "framework_seis_sacrificios": [
+        "1. Sacrificar o conforto presente",
+        "2. Sacrificar o equilíbrio",
+        "3. Sacrificar a mediocridade",
+        "4. Sacrificar a vontade de ser querido",
+        "5. Sacrificar a fragilidade",
+        "6. Sacrificar o perfeccionismo"
+      ]
+    },
+    "pilar_1_gastar_bem": {
+      "descricao": "Focado em maximizar o uso do dinheiro sem abrir mão da qualidade de vida, eliminando desperdícios em decisões de alto impacto.",
+      "capitulos": [
+        {
+          "capitulo": 1,
+          "titulo": "Fique rico, mas não agora",
+          "resumo": "Discute a importância do longo prazo e da consistência nos hábitos financeiros. Faz uma analogia entre investimentos e exercícios físicos (estudo da Fiocruz de 2016 aponta desistência de 63% dos alunos em 3 meses). Define a Equação da Independência Financeira.",
+          "conceitos_e_metricas": {
+            "poupadores_velhice_brasil": "3,6% das pessoas acima de 15 anos economizam para a velhice.",
+            "equacao_independencia_financeira": "Rendimento mensal dos investimentos >= Gastos totais mensais."
+          }
+        },
+        {
+          "capitulo": 2,
+          "titulo": "Um mercado sem investidores",
+          "resumo": "Diferencia o ato de investir (análise fundamentada) e especular (apostas de curto prazo). Descreve o Efeito Manada e detalha os perfis de especuladores e investidores do mercado brasileiro.",
+          "conceitos_e_metricas": {
+            "filosofia_barsi": "Comprar ações de setores perenes com visão de sócio de longo prazo.",
+            "matriz_de_perfis": ["Aspirante", "Especulador Iniciante", "Investidor de Longo Prazo"]
+          }
+        },
+        {
+          "capitulo": 3,
+          "titulo": "Anamnese financeira",
+          "resumo": "Apresenta um diagnóstico da saúde financeira pessoal. Utiliza o conceito de Antifrágil (Nassim Taleb) e mapeia a jornada financeira individual em 4 etapas.",
+          "conceitos_e_metricas": {
+            "fases_financeiras": ["1. Endividado", "2. Pequeno Investidor", "3. Foco no Longo Prazo", "4. Liberdade Financeira"]
+          }
+        },
+        {
+          "capitulo": 4,
+          "titulo": "A hora da verdade",
+          "resumo": "Explica o impacto transformador dos juros compostos ao longo do tempo e a diferença crucial entre simplesmente poupar dinheiro e investi-lo com inteligência.",
+          "conceitos_e_metricas": {
+            "formula_juros_compostos": "C * (1 + i)^t = Receita Final",
+            "regra_do_milhao": "Aporte de R$ 1.000/mês a 12% a.a. gera R$ 1 milhão em cerca de 20 anos."
+          }
+        },
+        {
+          "capitulo": 5,
+          "titulo": "O essencial nem sempre é essencial & Quem casa quer ficar rico",
+          "resumo": "Propõe a distribuição orçamentária ideal (50-10-30-10) e a montagem da reserva de emergência. Alerta contra decisões de alto impacto financeiro tomadas por impulso (financiar imóvel/carro, festas caratórias).",
+          "conceitos_e_metricas": {
+            "divisao_orcamentaria": "50% Essenciais | 10% Não essenciais | 30% Investimentos | 10% Livre",
+            "reserva_de_emergencia": "6 meses (CLT) a 12 meses (Autônomo) do custo de vida em ativos líquidos (Tesouro Selic, Fundos DI 100% CDI, CDB pós-fixado com FGC)."
+          }
+        }
+      ]
+    },
+    "pilar_2_investir_melhor": {
+      "descricao": "Ensina como alocar o patrimônio com eficiência de acordo com o perfil e prazo, superando a inflação e maximizando o poder dos juros compostos.",
+      "capitulos": [
+        {
+          "capitulo": 6,
+          "titulo": "Desmistificando a Renda Fixa",
+          "resumo": "Explica as modalidades e o funcionamento da renda fixa, detalhando a diferença entre títulos pré-fixados, pós-fixados e híbridos (indexados ao IPCA). Aborda os emissores (Governo, Bancos e Empresas) e mecanismos de proteção como o FGC.",
+          "ativos_abordados": ["Tesouro Direto (Selic, Prefixado, IPCA+)", "CDB, LCI e LCA", "CRI, CRA e Debêntures Incentivadas"]
+        },
+        {
+          "capitulo": 7,
+          "titulo": "Entrando na Renda Variável",
+          "resumo": "Desmitifica o mercado de ações e Fundos Imobiliários (FIIs). Mostra como o investimento em empresas consolidadas gera renda passiva por meio de dividendos e proventos, sem requerer acompanhamento diário da bolsa.",
+          "conceitos_chave": ["Análise Fundamentalista", "Dividend Yield e Dividend Payout", "Fundos Imobiliários (Tijolo, Papel, FOFs)"]
+        },
+        {
+          "capitulo": 8,
+          "titulo": "Fundos de Investimento e Previdência Privada",
+          "resumo": "Analisa a estrutura dos fundos multimercados e de ações, alertando para taxas abusivas de administração e performance. Examina os planos PGBL e VGBL e como utilizá-los na eficiência fiscal da aposentadoria.",
+          "alertas": ["Evitar fundos com taxa de administração acima de 2% em renda fixa", "Compreender o cometa-cotas e regimes de tributação (Regressivo vs. Progressivo)"]
+        },
+        {
+          "capitulo": 9,
+          "titulo": "Alocação de Ativos e Diversificação (Asset Allocation)",
+          "resumo": "Defende que a correta alocação de ativos é responsável por mais de 90% dos resultados de longo prazo. Apresenta o conceito de carteira equilibrada e o processo de rebalanceamento periódico.",
+          "principios": ["Nunca colocar todos os ovos na mesma cesta", "Rebalanceamento por compras e aportes", "Alocação conforme idade e perfil de risco"]
+        }
+      ]
+    },
+    "pilar_3_ganhar_mais": {
+      "descricao": "Trata da maior alavanca de aceleração do enriquecimento: o aumento contínuo do fluxo de caixa e das fontes de renda.",
+      "capitulos": [
+        {
+          "capitulo": 10,
+          "titulo": "Aumentando seu Valor de Mercado",
+          "resumo": "Foca no desenvolvimento pessoal e profissional. Defende que para ganhar mais é preciso gerar mais valor para o mercado, desenvolvendo 'hard skills' e 'soft skills' altamente demandadas.",
+          "conceito_chave": "O mercado não paga pelo esforço ou tempo gasto, paga pelo valor entregue e pela irreponibilidade do profissional."
+        },
+        {
+          "capitulo": 11,
+          "titulo": "Empreendedorismo e Intraempreendedorismo",
+          "resumo": "Apresenta caminhos para criar novas fontes de receita, seja abrindo o próprio negócio ou agindo como dono dentro da empresa onde trabalha (intraempreendedorismo), negociando aumentos e participação em lucros com base em resultados mensuráveis.",
+          "estratagemas": ["Propor metas atreladas ao resultado gerado", "Construir fontes paralelas de renda passiva/ativa", "Visão de negócios e escalabilidade"]
+        },
+        {
+          "capitulo": 12,
+          "titulo": "A Jornada rumo à Liberdade Financeira",
+          "resumo": "Conclui a obra conectando os três pilares. Reforça a necessidade do equilíbrio entre gastar bem, investir melhor e ganhar mais de forma contínua para manter a riqueza acumulada e garantir a transmissão de legado.",
+          "principais_takeaways": [
+            "Não existe atalho mágico: prosperidade exige disciplina e tempo.",
+            "Liberdade financeira significa ter controle sobre a maior das moedas: o tempo.",
+            "Foco constante no aprendizado e na execução sem procrastinação."
+          ]
+        }
+      ]
+    }
+  }
+}
