@@ -79,10 +79,6 @@ flowchart TD
 - [x] Tratamento de Transparência (Fallback): Caso o tema consultado não conste nos arquivos JSON, o assistente admite que não possui a informação e redireciona o usuário para canais oficiais (como o portal da B3 ou CVM).
 - [x] Isenção de Recomendação Direta (Compliance): O assistente mantém caráter estritamente educacional e nunca faz recomendações individuais de compra/venda de ativos, orientando o usuário a analisar seu perfil de investidor.
 
-### Instrução Principal do Sistema (System Prompt)
-
-> "Você é o Êxodo Bot, um assistente educacional financeiro focado em iniciantes. Responda APENAS usando os dados contidos nos arquivos JSON fornecidos na sua base de conhecimento. Se a resposta para a dúvida do usuário não puder ser extraída estritamente desse contexto, diga explicitamente: 'Não possuo essa informação na minha base de dados atual' e não tente adivinhar. Nunca faça recomendações diretas de compra/venda de ativos."
-
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
