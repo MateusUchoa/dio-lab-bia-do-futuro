@@ -61,7 +61,7 @@ Os dados são divididos em dois níveis:
 
 ---
 
-**Exemplo de Contexto Montado**
+**Exemplo**
 
 ```
 Dados do Cliente:
