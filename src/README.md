@@ -23,5 +23,5 @@ python
 pip install -r requirements.txt
 
 # Rodar a aplicação
-streamlit run Êxodo_bot.py
+python -m streamlit run Êxodo_bot.py
 ```
