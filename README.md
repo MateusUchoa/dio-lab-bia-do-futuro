@@ -2,148 +2,78 @@
 
 ## Contexto
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+O Êxodo Bot é um agente de Inteligência Artificial criado para guiar investidores iniciantes para fora do "deserto da ignorância" rumo à autonomia financeira, rodando 100% localmente. Desenvolvido para o desafio de Agentes de IA da DIO, ele atua como um mentor educacional que utiliza uma base de conhecimento restrita (RAG) e regras estritas de compliance para ensinar sobre o mercado sem realizar recomendações diretas de ativos:
 
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
+-Principais Funcionalidades e Diferenciais
+Privacidade e Execução Local: O motor LLM roda na própria máquina utilizando Ollama, garantindo que os dados do usuário não sejam enviados para APIs externas.
 
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
+-Travas de Segurança (Anti-Alucinação): Regras inegociáveis no System Prompt bloqueiam recomendações de compra/venda, promessas de rentabilidade e assuntos fora do escopo (como criptomoedas).
+
+-Roteamento Dinâmico de Contexto: O sistema analisa a pergunta do usuário e injeta apenas os documentos relevantes (JSON) no prompt, economizando tokens e focando a resposta.
 
 ---
 
-## O Que Você Deve Entregar
-
 ### 1. Documentação do Agente
-
-Defina **o que** seu agente faz e **como** ele funciona:
-
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
+Arquitetura e Tecnologias
+Componente        Tecnologia            Propósito
+Interface (UI)    StreamlitChat         interativo fluido com suporte a respostas em streaming.
+Motor LLM         Ollama                Orquestração e execução local de grandes modelos de linguagem.
+Modelo Base       Qwen2.5-coder:14b     Raciocínio lógico, extração de contexto e formatação de texto em português.
+Back-end e RAG    Python 3              Lógica de correspondência de palavras-chave para injeção de contexto.
 
 ---
 
 ### 2. Base de Conhecimento
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
+Os dados mockados que alimentam as respostas do agente estão estruturados em arquivos JSON focados em literatura consagrada e regras oficiais:
+Arquivo JSON                        Conteúdo Base                                    Palavras-chave de Ativação
+CVM_bolsa.json                      Diretrizes, regras e prevenção a fraudes.        cvm, regra, fraude, regulamentação
+glossario_b3.json                   Termos e jargões da Bolsa de Valores.            o que é, ação, fii, dividendo, etf
+produtos_financeiros.json           Explicação sobre classes de ativos.              renda fixa, tesouro, cdb, fundo
+investidor_inteligente.json         Filosofia de Benjamin Graham (Value Investing).  margem de segurança, valor intrínseco
+mil_ao_milhao.json                  Pilares da riqueza (Thiago Nigro).               poupar, rentabilidade, gastos
 
 ---
 
-### 3. Prompts do Agente
+### 3. Aplicação Funcional
 
-Documente os prompts que definem o comportamento do seu agente:
+Como Executar o Projeto Localmente
+Pré-requisitos: Instale o Ollama no seu computador.
 
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
+Baixe o modelo LLM: Abra o terminal e execute o comando de download do modelo escolhido:
 
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
+Bash
+ollama run qwen2.5-coder:14b
+Clone este repositório e instale as bibliotecas:
 
----
+Bash
+pip install streamlit ollama
+Inicie a interface: No diretório do projeto, rode o comando:
 
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do seu agente:
-
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
-
----
-
-### 5. Avaliação e Métricas
-
-Descreva como você avalia a qualidade do seu agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
-
----
-
-### 6. Pitch
-
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
-
----
-
-## Ferramentas Sugeridas
-
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
+Bash
+streamlit run app.py
 
 ---
 
 ## Estrutura do Repositório
 
 ```
-📁 lab-agente-financeiro/
+📁 exodo-bot-agente-financeiro/
 │
-├── 📄 README.md
+├── 📄 README.md                 # Documentação principal
+├── 📄 Êxodo_bot.py              # Código-fonte principal (Streamlit + Ollama + Métricas)
+|
 │
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
+├── 📁 data/                     # Base de Conhecimento RAG
+│   ├── CVM_bolsa.json
+│   ├── glossario_b3_base.json
+│   ├── produtos_financeiros.json
+│   ├── perfil_investidor.json
+│   ├── json_investidor_inteligente.json
+│   └── json_mil_ao_milhao.json
 │
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
-│
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
-│
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
-```
-
----
-
-## Dicas Finais
-
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+└── 📁 docs/                     # Documentação de apoio do desafio DIO
+    ├── 01-documentacao-agente.md
+    ├── 02-base-conhecimento.md
+    ├── 03-prompts.md
+    └── 05-pitch.md```
